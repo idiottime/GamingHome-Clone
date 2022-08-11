@@ -1,0 +1,60 @@
+body{
+    height: 2000px;
+ }
+  
+ .nav-item{
+    font-weight: bold;
+    background-color: grey;
+    padding-top: 30px;
+ }
+  
+ h2, p{
+    color: black;
+ }
+  
+ img{
+    width: 100%;
+    height: auto;
+ }
+  
+ .carousel-indicators{
+    position: relative;
+    top: 1050px;
+ }
+ 
+ ul{
+    opacity: 0.3;
+ }
+
+ .nav-item :hover{
+    color: white;
+ }
+
+ .representatives{
+    color: white;
+ }
+
+ #cooltext{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    animation-name: textAnimation;
+ }
+
+ @keyframes textAnimation {
+   from {
+       opacity: 0;
+   }
+
+   to {
+       opacity: 1;
+   }
+
+   from {
+       transform: translateY(30px);
+   }
+
+   to {
+       transform: translateY(0px);
+   }
+}
